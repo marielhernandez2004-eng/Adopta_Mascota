@@ -90,15 +90,22 @@ header nav a:hover {
 }
 
 /* Formulario */
-.formulario label {
-  display: block;
-  margin-top: 0.5rem;
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    gap: 15px;
 }
-
-.formulario input,
-.formulario textarea {
-  width: 100%;
-  padding: 0.4rem;
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.socials a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
 }
 
 /* Pie de página */
