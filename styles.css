@@ -37,9 +37,18 @@ header nav a:hover {
 
 /* Hero */
 .hero {
-  background-color: #e8f5e9;
-  text-align: center;
-  padding: 3rem 1rem;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('hero-bg.jpg');
+    background-size: cover;
+    color: white;
+    padding: 6rem 2rem;
+}
+.hero h1 {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+}
+.hero .btn:hover {
+    background: #d35400;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
 }
 
 .boton {
